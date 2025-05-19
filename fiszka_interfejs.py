@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 class FlashcardInterface:
-    def __init__(self, json_path, index, callbacks):
+    def __init__(self, json_path, index, callbacks, mode='pl-en'):
         """
         json_path: ścieżka do pliku JSON z fiszkami
         index: numer fiszki (0-based)
@@ -16,6 +16,7 @@ class FlashcardInterface:
                 'yes': func,
                 'no': func
             }
+        mode: 'pl-en' lub 'en-pl'
         """
         # Wczytanie fiszek
         try:
@@ -42,6 +43,7 @@ class FlashcardInterface:
 
         self.card = flashcards[index]
         self.callbacks = callbacks
+        self.mode = mode  # Ustawienie trybu
 
         # Inicjalizacja okna
         self.root = tk.Tk()
@@ -50,58 +52,80 @@ class FlashcardInterface:
         self.root.bind("<Key>", self.on_key)
 
         # Etykiety
-        self.pol_label = tk.Label(self.root, text=self.card["polski"], font=("Arial", 24), wraplength=580)
-        self.pol_label.pack(expand=True, pady=20)
+        self.front_label = tk.Label(self.root, text=self.get_front_text(),
+                                    font=("Arial", 24), wraplength=580)
+        self.front_label.pack(expand=True, pady=20)
 
-        self.eng_label = tk.Label(self.root, text="", font=("Arial", 20), fg="blue", wraplength=580)
-        self.eng_label.pack()
+        self.back_label = tk.Label(self.root, text="", font=("Arial", 20),
+                                   fg="blue", wraplength=580)
+        self.back_label.pack()
 
         # Instrukcja
-        instr_text = "←: Poprzednia  →: Następna  Spacja: Toggle  Y: Yes  N: No  Q: Quit"
-        self.instr_label = tk.Label(self.root, text=instr_text, font=("Arial", 12), fg="gray")
+        instr = (
+            "←: Poprzednia  →: Następna  "
+            "Spacja : Tłumaczenie  Y: Umiem  N: Nie umiem  Q: Quit"
+        )
+        self.instr_label = tk.Label(self.root, text=instr,
+                                    font=("Arial", 12), fg="gray")
         self.instr_label.pack(side="bottom", pady=10)
 
-        self.show_translation = False
+        self.show_back = False
+
+    def get_front_text(self):
+        # Zwraca tekst na froncie karty wg trybu
+        if self.mode == 'pl-en':
+            return self.card['polski']
+        else:  # 'en-pl'
+            return self.card['angielski']
+
+    def get_back_text(self):
+        # Zwraca tekst na odwrocie karty wg trybu
+        if self.mode == 'pl-en':
+            return self.card['angielski']
+        else:
+            return self.card['polski']
 
     def on_key(self, event):
         key = event.keysym.lower()
-        if key == "q":
+        if key == 'q':
             self.callbacks.get('quit', lambda: None)()
             self.root.destroy()
-        elif key in ("right", "n"):  # strzałka w prawo lub 'n'
+        elif key in ('right', 'n'):
             self.callbacks.get('next', lambda: None)()
-        elif key in ("left",):     # strzałka w lewo
+        elif key == 'left':
             self.callbacks.get('prev', lambda: None)()
-        elif key == "space":
-            self.toggle_translation()
+        elif key == 'space':
+            self.toggle()
             self.callbacks.get('toggle', lambda: None)()
-        elif key == "y":
+        elif key == 'y':
             self.callbacks.get('yes', lambda: None)()
-        elif key == "n":
+        elif key == 'n':
             self.callbacks.get('no', lambda: None)()
 
-    def toggle_translation(self):
-        if not self.show_translation:
-            self.eng_label.config(text=self.card["angielski"])
-            self.show_translation = True
+    def toggle(self):
+        # Przełącza widok front/back
+        if not self.show_back:
+            self.back_label.config(text=self.get_back_text())
+            self.show_back = True
         else:
-            self.eng_label.config(text="")
-            self.show_translation = False
+            self.back_label.config(text='')
+            self.show_back = False
 
     def run(self):
         self.root.mainloop()
 
-# Przykład użycia:
-if __name__ == "__main__":
-    def on_quit(): print("Quit")
-    def on_next(): print("Next")
-    def on_prev(): print("Prev")
-    def on_toggle(): print("Toggle")
-    def on_yes(): print("Yes")
-    def on_no(): print("No")
+# TEST
+if __name__ == '__main__':
+    def on_quit(): print('Quit')
+    def on_next(): print('Next')
+    def on_prev(): print('Prev')
+    def on_toggle(): print('Toggle')
+    def on_yes(): print('Yes')
+    def on_no(): print('No')
 
-    json_path = "fiszki_B2_unikalne.json"  # przykładowa ścieżka
-    index = 0  # wyświetl pierwszą fiszkę
+    json_path = 'fiszki_B2_unikalne.json'
+    index = 0
+    mode = 'pl-en'  # lub 'pl-en'
 
     callbacks = {
         'quit': on_quit,
@@ -112,5 +136,5 @@ if __name__ == "__main__":
         'no': on_no
     }
 
-    app = FlashcardInterface(json_path, index, callbacks)
+    app = FlashcardInterface(json_path, index, callbacks, mode)
     app.run()
