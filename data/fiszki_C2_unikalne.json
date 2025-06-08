@@ -1,410 +1,512 @@
 [
   {
     "polski": "zbieżność",
-    "angielski": "convergence"
+    "angielski": "convergence",
+    "nieznane": 0
   },
   {
     "polski": "nadrzędny",
-    "angielski": "overarching"
+    "angielski": "overarching",
+    "nieznane": 0
   },
   {
     "polski": "odstępstwo",
-    "angielski": "deviation"
+    "angielski": "deviation",
+    "nieznane": 0
   },
   {
     "polski": "kompromitujący",
-    "angielski": "incriminating"
+    "angielski": "incriminating",
+    "nieznane": 0
   },
   {
     "polski": "bezzasadny",
-    "angielski": "unsubstantiated"
+    "angielski": "unsubstantiated",
+    "nieznane": 0
   },
   {
     "polski": "przypuszczać",
-    "angielski": "conjecture"
+    "angielski": "conjecture",
+    "nieznane": 0
   },
   {
     "polski": "przekroczenie",
-    "angielski": "transgression"
+    "angielski": "transgression",
+    "nieznane": 0
   },
   {
     "polski": "niemożliwy do rozwiązania",
-    "angielski": "insoluble"
+    "angielski": "insoluble",
+    "nieznane": 0
   },
   {
     "polski": "niematerialny",
-    "angielski": "intangible"
+    "angielski": "intangible",
+    "nieznane": 0
   },
   {
     "polski": "nieodłączny",
-    "angielski": "inherent"
+    "angielski": "inherent",
+    "nieznane": 0
   },
   {
     "polski": "wytrzymałość",
-    "angielski": "resilience"
+    "angielski": "resilience",
+    "nieznane": 0
   },
   {
     "polski": "poddawać się",
-    "angielski": "succumb"
+    "angielski": "succumb",
+    "nieznane": 0
   },
   {
     "polski": "rozliczalność",
-    "angielski": "accountability"
+    "angielski": "accountability",
+    "nieznane": 0
   },
   {
     "polski": "niedopuszczalność",
-    "angielski": "inadmissibility"
+    "angielski": "inadmissibility",
+    "nieznane": 0
   },
   {
     "polski": "dobitny",
-    "angielski": "emphatic"
+    "angielski": "emphatic",
+    "nieznane": 0
   },
   {
     "polski": "nienaruszalność",
-    "angielski": "sanctity"
+    "angielski": "sanctity",
+    "nieznane": 0
   },
   {
     "polski": "wyniosłość",
-    "angielski": "aloofness"
+    "angielski": "aloofness",
+    "nieznane": 0
   },
   {
     "polski": "powściągliwość",
-    "angielski": "reticence"
+    "angielski": "reticence",
+    "nieznane": 0
   },
   {
     "polski": "niepokojący",
-    "angielski": "disconcerting"
+    "angielski": "disconcerting",
+    "nieznane": 0
   },
   {
     "polski": "zawiłość",
-    "angielski": "intricacy"
+    "angielski": "intricacy",
+    "nieznane": 0
   },
   {
     "polski": "przytłaczający",
-    "angielski": "overwhelming"
+    "angielski": "overwhelming",
+    "nieznane": 0
   },
   {
     "polski": "ułomność",
-    "angielski": "fallibility"
+    "angielski": "fallibility",
+    "nieznane": 0
   },
   {
     "polski": "niezmienność",
-    "angielski": "immutability"
+    "angielski": "immutability",
+    "nieznane": 0
   },
   {
     "polski": "osłabienie",
-    "angielski": "attenuation"
+    "angielski": "attenuation",
+    "nieznane": 0
   },
   {
     "polski": "obarczenie",
-    "angielski": "encumbrance"
+    "angielski": "encumbrance",
+    "nieznane": 0
   },
   {
     "polski": "przeciwdziałać",
-    "angielski": "counteract"
+    "angielski": "counteract",
+    "nieznane": 0
   },
   {
     "polski": "złośliwość",
-    "angielski": "malevolence"
+    "angielski": "malevolence",
+    "nieznane": 0
   },
   {
     "polski": "uczłowieczenie",
-    "angielski": "personification"
+    "angielski": "personification",
+    "nieznane": 0
   },
   {
     "polski": "zatarcie",
-    "angielski": "obliteration"
+    "angielski": "obliteration",
+    "nieznane": 0
   },
   {
     "polski": "przesłanka",
-    "angielski": "premise"
+    "angielski": "premise",
+    "nieznane": 0
   },
   {
     "polski": "przenośny",
-    "angielski": "metaphorical"
+    "angielski": "metaphorical",
+    "nieznane": 0
   },
   {
     "polski": "niepodważalny",
-    "angielski": "irrefutable"
+    "angielski": "irrefutable",
+    "nieznane": 0
   },
   {
     "polski": "brzemienny w skutki",
-    "angielski": "momentous"
+    "angielski": "momentous",
+    "nieznane": 0
   },
   {
     "polski": "obarczyć winą",
-    "angielski": "impute"
+    "angielski": "impute",
+    "nieznane": 0
   },
   {
     "polski": "poręczyć",
-    "angielski": "vouch for"
+    "angielski": "vouch for",
+    "nieznane": 0
   },
   {
     "polski": "wywyższać",
-    "angielski": "exalt"
+    "angielski": "exalt",
+    "nieznane": 0
   },
   {
     "polski": "nieustępliwy",
-    "angielski": "unyielding"
+    "angielski": "unyielding",
+    "nieznane": 0
   },
   {
     "polski": "ujmować",
-    "angielski": "encapsulate"
+    "angielski": "encapsulate",
+    "nieznane": 0
   },
   {
     "polski": "niepohamowany",
-    "angielski": "unbridled"
+    "angielski": "unbridled",
+    "nieznane": 0
   },
   {
     "polski": "bezgraniczny",
-    "angielski": "boundless"
+    "angielski": "boundless",
+    "nieznane": 0
   },
   {
     "polski": "zakorzeniony",
-    "angielski": "ingrained"
+    "angielski": "ingrained",
+    "nieznane": 0
   },
   {
     "polski": "przypisywać",
-    "angielski": "ascribe"
+    "angielski": "ascribe",
+    "nieznane": 0
   },
   {
     "polski": "wyczerpujący",
-    "angielski": "exhaustive"
+    "angielski": "exhaustive",
+    "nieznane": 0
   },
   {
     "polski": "pochłaniający",
-    "angielski": "engrossing"
+    "angielski": "engrossing",
+    "nieznane": 0
   },
   {
     "polski": "nieprzejednany",
-    "angielski": "intransigent"
+    "angielski": "intransigent",
+    "nieznane": 0
   },
   {
     "polski": "odmienność",
-    "angielski": "divergence"
+    "angielski": "divergence",
+    "nieznane": 0
   },
   {
     "polski": "niezłomny",
-    "angielski": "indomitable"
+    "angielski": "indomitable",
+    "nieznane": 0
   },
   {
     "polski": "przezorność",
-    "angielski": "prudence"
+    "angielski": "prudence",
+    "nieznane": 0
   },
   {
     "polski": "bezwzględny",
-    "angielski": "ruthless"
+    "angielski": "ruthless",
+    "nieznane": 0
   },
   {
     "polski": "nieprzewidywalność",
-    "angielski": "volatility"
+    "angielski": "volatility",
+    "nieznane": 0
   },
   {
     "polski": "dalekosiężny",
-    "angielski": "far-reaching"
+    "angielski": "far-reaching",
+    "nieznane": 0
   },
   {
     "polski": "przekształcać",
-    "angielski": "transfigure"
+    "angielski": "transfigure",
+    "nieznane": 0
   },
   {
     "polski": "odkrywczość",
-    "angielski": "ingenuity"
+    "angielski": "ingenuity",
+    "nieznane": 0
   },
   {
     "polski": "rozróżnialny",
-    "angielski": "discernible"
+    "angielski": "discernible",
+    "nieznane": 0
   },
   {
     "polski": "poruszać (problem)",
-    "angielski": "broach"
+    "angielski": "broach",
+    "nieznane": 0
   },
   {
     "polski": "pojednanie",
-    "angielski": "reconciliation"
+    "angielski": "reconciliation",
+    "nieznane": 0
   },
   {
     "polski": "zniekształcenie",
-    "angielski": "warp"
+    "angielski": "warp",
+    "nieznane": 0
   },
   {
     "polski": "nieuchronność",
-    "angielski": "inexorability"
+    "angielski": "inexorability",
+    "nieznane": 0
   },
   {
     "polski": "powaga",
-    "angielski": "gravity"
+    "angielski": "gravity",
+    "nieznane": 0
   },
   {
     "polski": "przejrzystość",
-    "angielski": "lucidity"
+    "angielski": "lucidity",
+    "nieznane": 0
   },
   {
     "polski": "wnikliwość",
-    "angielski": "astuteness"
+    "angielski": "astuteness",
+    "nieznane": 0
   },
   {
     "polski": "skłonność",
-    "angielski": "predilection"
+    "angielski": "predilection",
+    "nieznane": 0
   },
   {
     "polski": "wyrzeczenie",
-    "angielski": "renunciation"
+    "angielski": "renunciation",
+    "nieznane": 0
   },
   {
     "polski": "zawikłany",
-    "angielski": "convoluted"
+    "angielski": "convoluted",
+    "nieznane": 0
   },
   {
     "polski": "przemyślany",
-    "angielski": "deliberate"
+    "angielski": "deliberate",
+    "nieznane": 0
   },
   {
     "polski": "wymownie",
-    "angielski": "eloquently"
+    "angielski": "eloquently",
+    "nieznane": 0
   },
   {
     "polski": "ochoczo",
-    "angielski": "readily"
+    "angielski": "readily",
+    "nieznane": 0
   },
   {
     "polski": "nienaganny",
-    "angielski": "impeccable"
+    "angielski": "impeccable",
+    "nieznane": 0
   },
   {
     "polski": "oszałamiający",
-    "angielski": "staggering"
+    "angielski": "staggering",
+    "nieznane": 0
   },
   {
     "polski": "usankcjonowany",
-    "angielski": "legitimized"
+    "angielski": "legitimized",
+    "nieznane": 0
   },
   {
     "polski": "deprecjonować",
-    "angielski": "belittle"
+    "angielski": "belittle",
+    "nieznane": 0
   },
   {
     "polski": "bezstronność",
-    "angielski": "impartiality"
+    "angielski": "impartiality",
+    "nieznane": 0
   },
   {
     "polski": "posługiwać się",
-    "angielski": "wield"
+    "angielski": "wield",
+    "nieznane": 0
   },
   {
     "polski": "uwypuklać",
-    "angielski": "accentuate"
+    "angielski": "accentuate",
+    "nieznane": 0
   },
   {
     "polski": "nieskazitelny",
-    "angielski": "unblemished"
+    "angielski": "unblemished",
+    "nieznane": 0
   },
   {
     "polski": "pochopność",
-    "angielski": "rashness"
+    "angielski": "rashness",
+    "nieznane": 0
   },
   {
     "polski": "usprawiedliwiony",
-    "angielski": "vindicated"
+    "angielski": "vindicated",
+    "nieznane": 0
   },
   {
     "polski": "wzajemność",
-    "angielski": "reciprocity"
+    "angielski": "reciprocity",
+    "nieznane": 0
   },
   {
     "polski": "niedopowiedzenie",
-    "angielski": "understatement"
+    "angielski": "understatement",
+    "nieznane": 0
   },
   {
     "polski": "oburzający",
-    "angielski": "outrageous"
+    "angielski": "outrageous",
+    "nieznane": 0
   },
   {
     "polski": "pozostający bez odpowiedzi",
-    "angielski": "unanswered"
+    "angielski": "unanswered",
+    "nieznane": 0
   },
   {
     "polski": "pogłębiający się",
-    "angielski": "deepening"
+    "angielski": "deepening",
+    "nieznane": 0
   },
   {
     "polski": "podważać",
-    "angielski": "discredit"
+    "angielski": "discredit",
+    "nieznane": 0
   },
   {
     "polski": "ułatwienie",
-    "angielski": "facilitation"
+    "angielski": "facilitation",
+    "nieznane": 0
   },
   {
     "polski": "dokładność",
-    "angielski": "precision"
+    "angielski": "precision",
+    "nieznane": 0
   },
   {
     "polski": "zgłębiać",
-    "angielski": "delve into"
+    "angielski": "delve into",
+    "nieznane": 0
   },
   {
     "polski": "obejść się bez",
-    "angielski": "dispense with"
+    "angielski": "dispense with",
+    "nieznane": 0
   },
   {
     "polski": "nadrabiać",
-    "angielski": "make amends"
+    "angielski": "make amends",
+    "nieznane": 0
   },
   {
     "polski": "wieloznaczność",
-    "angielski": "equivocation"
+    "angielski": "equivocation",
+    "nieznane": 0
   },
   {
     "polski": "wzbudzać",
-    "angielski": "evoke"
+    "angielski": "evoke",
+    "nieznane": 0
   },
   {
     "polski": "niedający się utrzymać",
-    "angielski": "untenable"
+    "angielski": "untenable",
+    "nieznane": 0
   },
   {
     "polski": "odpowiedzialny",
-    "angielski": "liable"
+    "angielski": "liable",
+    "nieznane": 0
   },
   {
     "polski": "skwapliwość",
-    "angielski": "alacrity"
+    "angielski": "alacrity",
+    "nieznane": 0
   },
   {
     "polski": "wszechobecny",
-    "angielski": "ubiquitous"
+    "angielski": "ubiquitous",
+    "nieznane": 0
   },
   {
     "polski": "pełen skruchy",
-    "angielski": "contrite"
+    "angielski": "contrite",
+    "nieznane": 0
   },
   {
     "polski": "pomijanie",
-    "angielski": "neglect"
+    "angielski": "neglect",
+    "nieznane": 0
   },
   {
     "polski": "poświęcenie",
-    "angielski": "dedication"
+    "angielski": "dedication",
+    "nieznane": 0
   },
   {
     "polski": "sugestywny",
-    "angielski": "evocative"
+    "angielski": "evocative",
+    "nieznane": 0
   },
   {
     "polski": "dziwaczny",
-    "angielski": "quirky"
+    "angielski": "quirky",
+    "nieznane": 0
   },
   {
     "polski": "nacechowany",
-    "angielski": "laden"
+    "angielski": "laden",
+    "nieznane": 0
   },
   {
     "polski": "ospałość",
-    "angielski": "lethargy"
+    "angielski": "lethargy",
+    "nieznane": 0
   },
   {
     "polski": "skryty",
-    "angielski": "cloistered"
+    "angielski": "cloistered",
+    "nieznane": 0
   }
 ]

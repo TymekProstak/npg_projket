@@ -1,27 +1,11 @@
 import random
-import tkinter as tk
 from ui.interfejs_fiszki import FlashcardInterface
 import json
 
-# Tryb sprawdzianu - każda fiszka raz, wynik na końcu
 def run(flashcards, mode, json_path):
-    random.shuffle(flashcards)
+    # Sortowanie fiszek według "nieznane" w kolejności malejącej i ograniczenie do 20
+    flashcards = sorted(flashcards, key=lambda x: x["nieznane"], reverse=True)[:20]
     index = 0
-    correct_count = 0
-
-    app = FlashcardInterface(
-        json_path=None,
-        index=0,
-        callbacks={
-            'quit': lambda: app.root.destroy(),
-            'next': lambda: next_card(),
-            'prev': lambda: None,
-            'toggle': lambda: None,
-            'yes': lambda: mark_correct(),
-            'no': lambda: mark_unknown(),
-        },
-        mode=mode
-    )
 
     def next_card():
         nonlocal index
@@ -29,16 +13,16 @@ def run(flashcards, mode, json_path):
             index += 1
             app.set_card(flashcards[index])
         else:
-            show_result()
+            print("Powtórka zakończona.")
+            app.root.destroy()
 
-    def mark_correct():
-        nonlocal correct_count
-        correct_count += 1
+    def mark_known():
+        flashcards[index]["nieznane"] = 0  # Reset "nieznane" to 0
+        save_flashcards()
         next_card()
 
     def mark_unknown():
-        flashcards[index]["nieznane"] += 1  # Zwiększ "nieznane"
-        print(f"Zwiększono 'nieznane' dla fiszki: {flashcards[index]}")  # Debug
+        flashcards[index]["nieznane"] += 1  # Increment "nieznane"
         save_flashcards()
         next_card()
 
@@ -60,9 +44,19 @@ def run(flashcards, mode, json_path):
             json.dump(all_flashcards, f, ensure_ascii=False, indent=4)
             print(f"Zapisano zmiany do pliku: {json_path}")  # Debug
 
-    def show_result():
-        app.root.destroy()
-        print(f"Test zakończony. Wynik: {correct_count}/{len(flashcards)}")
+    app = FlashcardInterface(
+        json_path=None,
+        index=0,
+        callbacks={
+            'quit': lambda: app.root.destroy(),
+            'next': lambda: next_card(),
+            'prev': lambda: None,
+            'toggle': lambda: None,
+            'yes': lambda: mark_known(),
+            'no': lambda: mark_unknown(),
+        },
+        mode=mode
+    )
 
     app.set_card(flashcards[index])
     app.run()

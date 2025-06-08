@@ -1,410 +1,102 @@
 [
-  {
-    "polski": "dziedzina",
-    "angielski": "field"
-  },
-  {
-    "polski": "zagadnienie",
-    "angielski": "issue"
-  },
-  {
-    "polski": "okoliczność",
-    "angielski": "circumstance"
-  },
-  {
-    "polski": "postawa",
-    "angielski": "attitude"
-  },
-  {
-    "polski": "dowód",
-    "angielski": "evidence"
-  },
-  {
-    "polski": "zachowanie",
-    "angielski": "behavior"
-  },
-  {
-    "polski": "osiągać",
-    "angielski": "achieve"
-  },
-  {
-    "polski": "porównywać",
-    "angielski": "compare"
-  },
-  {
-    "polski": "dostarczać",
-    "angielski": "provide"
-  },
-  {
-    "polski": "udział",
-    "angielski": "participation"
-  },
-  {
-    "polski": "ocena",
-    "angielski": "assessment"
-  },
-  {
-    "polski": "wniosek",
-    "angielski": "conclusion"
-  },
-  {
-    "polski": "wpływ",
-    "angielski": "influence"
-  },
-  {
-    "polski": "znaczący",
-    "angielski": "significant"
-  },
-  {
-    "polski": "zaniepokojony",
-    "angielski": "concerned"
-  },
-  {
-    "polski": "istotny",
-    "angielski": "relevant"
-  },
-  {
-    "polski": "korzyść",
-    "angielski": "benefit"
-  },
-  {
-    "polski": "zagrożenie",
-    "angielski": "threat"
-  },
-  {
-    "polski": "doświadczenie",
-    "angielski": "experience"
-  },
-  {
-    "polski": "zatrudniać",
-    "angielski": "employ"
-  },
-  {
-    "polski": "przedstawiać",
-    "angielski": "present"
-  },
-  {
-    "polski": "zgoda",
-    "angielski": "consent"
-  },
-  {
-    "polski": "spodziewać się",
-    "angielski": "expect"
-  },
-  {
-    "polski": "oczekiwania",
-    "angielski": "expectations"
-  },
-  {
-    "polski": "przyczyna",
-    "angielski": "cause"
-  },
-  {
-    "polski": "skutek",
-    "angielski": "effect"
-  },
-  {
-    "polski": "rozwiązywać",
-    "angielski": "solve"
-  },
-  {
-    "polski": "konflikt",
-    "angielski": "conflict"
-  },
-  {
-    "polski": "warunek",
-    "angielski": "condition"
-  },
-  {
-    "polski": "szacować",
-    "angielski": "estimate"
-  },
-  {
-    "polski": "wskazywać",
-    "angielski": "indicate"
-  },
-  {
-    "polski": "dostępny",
-    "angielski": "available"
-  },
-  {
-    "polski": "zasoby",
-    "angielski": "resources"
-  },
-  {
-    "polski": "przekonywać",
-    "angielski": "convince"
-  },
-  {
-    "polski": "prowadzić do",
-    "angielski": "lead to"
-  },
-  {
-    "polski": "postęp",
-    "angielski": "progress"
-  },
-  {
-    "polski": "rozważać",
-    "angielski": "consider"
-  },
-  {
-    "polski": "zgłaszać",
-    "angielski": "report"
-  },
-  {
-    "polski": "świadomość",
-    "angielski": "awareness"
-  },
-  {
-    "polski": "poradzić sobie",
-    "angielski": "cope"
-  },
-  {
-    "polski": "nawyk",
-    "angielski": "habit"
-  },
-  {
-    "polski": "szansa",
-    "angielski": "opportunity"
-  },
-  {
-    "polski": "cel",
-    "angielski": "goal"
-  },
-  {
-    "polski": "narzędzie",
-    "angielski": "tool"
-  },
-  {
-    "polski": "wzór",
-    "angielski": "pattern"
-  },
-  {
-    "polski": "wynik",
-    "angielski": "result"
-  },
-  {
-    "polski": "punkt widzenia",
-    "angielski": "point of view"
-  },
-  {
-    "polski": "skupiać się",
-    "angielski": "focus on"
-  },
-  {
-    "polski": "szczegół",
-    "angielski": "detail"
-  },
-  {
-    "polski": "badanie",
-    "angielski": "research"
-  },
-  {
-    "polski": "obserwacja",
-    "angielski": "observation"
-  },
-  {
-    "polski": "analiza",
-    "angielski": "analysis"
-  },
-  {
-    "polski": "przeciwny",
-    "angielski": "opposed"
-  },
-  {
-    "polski": "utrzymywać",
-    "angielski": "maintain"
-  },
-  {
-    "polski": "zrozumiały",
-    "angielski": "comprehensible"
-  },
-  {
-    "polski": "przyczynić się",
-    "angielski": "contribute"
-  },
-  {
-    "polski": "powtarzać",
-    "angielski": "repeat"
-  },
-  {
-    "polski": "potwierdzać",
-    "angielski": "confirm"
-  },
-  {
-    "polski": "zaprzeczać",
-    "angielski": "deny"
-  },
-  {
-    "polski": "sprzeciwiać się",
-    "angielski": "object to"
-  },
-  {
-    "polski": "mieć tendencję",
-    "angielski": "tend to"
-  },
-  {
-    "polski": "wymagać",
-    "angielski": "require"
-  },
-  {
-    "polski": "wyjątek",
-    "angielski": "exception"
-  },
-  {
-    "polski": "szczególnie",
-    "angielski": "particularly"
-  },
-  {
-    "polski": "średni",
-    "angielski": "average"
-  },
-  {
-    "polski": "równość",
-    "angielski": "equality"
-  },
-  {
-    "polski": "przemoc",
-    "angielski": "violence"
-  },
-  {
-    "polski": "bezpieczeństwo",
-    "angielski": "safety"
-  },
-  {
-    "polski": "wrażliwy",
-    "angielski": "sensitive"
-  },
-  {
-    "polski": "uczestniczyć",
-    "angielski": "participate"
-  },
-  {
-    "polski": "podejście",
-    "angielski": "approach"
-  },
-  {
-    "polski": "rozsądny",
-    "angielski": "reasonable"
-  },
-  {
-    "polski": "rozpoznawać",
-    "angielski": "recognize"
-  },
-  {
-    "polski": "wzbudzać",
-    "angielski": "arouse"
-  },
-  {
-    "polski": "przywództwo",
-    "angielski": "leadership"
-  },
-  {
-    "polski": "konsekwencja",
-    "angielski": "consequence"
-  },
-  {
-    "polski": "zasady",
-    "angielski": "principles"
-  },
-  {
-    "polski": "uwaga",
-    "angielski": "attention"
-  },
-  {
-    "polski": "cecha",
-    "angielski": "feature"
-  },
-  {
-    "polski": "wyzwanie",
-    "angielski": "challenge"
-  },
-  {
-    "polski": "trudność",
-    "angielski": "difficulty"
-  },
-  {
-    "polski": "zainteresowanie",
-    "angielski": "interest"
-  },
-  {
-    "polski": "rozszerzać",
-    "angielski": "expand"
-  },
-  {
-    "polski": "przewidywać",
-    "angielski": "predict"
-  },
-  {
-    "polski": "przygotowywać się",
-    "angielski": "prepare"
-  },
-  {
-    "polski": "polepszać",
-    "angielski": "improve"
-  },
-  {
-    "polski": "zmniejszać",
-    "angielski": "reduce"
-  },
-  {
-    "polski": "odkrywać",
-    "angielski": "discover"
-  },
-  {
-    "polski": "wskazówka",
-    "angielski": "clue"
-  },
-  {
-    "polski": "porada",
-    "angielski": "advice"
-  },
-  {
-    "polski": "sugestia",
-    "angielski": "suggestion"
-  },
-  {
-    "polski": "decyzja",
-    "angielski": "decision"
-  },
-  {
-    "polski": "niezależny",
-    "angielski": "independent"
-  },
-  {
-    "polski": "wspólny",
-    "angielski": "common"
-  },
-  {
-    "polski": "niezawodny",
-    "angielski": "reliable"
-  },
-  {
-    "polski": "potrzebny",
-    "angielski": "necessary"
-  },
-  {
-    "polski": "możliwy",
-    "angielski": "possible"
-  },
-  {
-    "polski": "przykład",
-    "angielski": "example"
-  },
-  {
-    "polski": "szczery",
-    "angielski": "honest"
-  },
-  {
-    "polski": "opinia",
-    "angielski": "opinion"
-  },
-  {
-    "polski": "dojrzałość",
-    "angielski": "maturity"
-  },
-  {
-    "polski": "ambicja",
-    "angielski": "ambition"
-  }
+    {
+        "polski": "pole",
+        "angielski": "field",
+        "nieznane": 0
+    },
+    {
+        "polski": "problem",
+        "angielski": "issue",
+        "nieznane": 0
+    },
+    {
+        "polski": "okoliczność",
+        "angielski": "circumstance",
+        "nieznane": 0
+    },
+    {
+        "polski": "nastawienie",
+        "angielski": "attitude",
+        "nieznane": 0
+    },
+    {
+        "polski": "dowód",
+        "angielski": "evidence",
+        "nieznane": 0
+    },
+    {
+        "polski": "zachowanie",
+        "angielski": "behavior",
+        "nieznane": 0
+    },
+    {
+        "polski": "osiągnąć",
+        "angielski": "achieve",
+        "nieznane": 0
+    },
+    {
+        "polski": "porównać",
+        "angielski": "compare",
+        "nieznane": 0
+    },
+    {
+        "polski": "zapewnić",
+        "angielski": "provide",
+        "nieznane": 0
+    },
+    {
+        "polski": "uczestnictwo",
+        "angielski": "participation",
+        "nieznane": 1
+    },
+    {
+        "polski": "ocena",
+        "angielski": "assessment",
+        "nieznane": 0
+    },
+    {
+        "polski": "wniosek",
+        "angielski": "conclusion",
+        "nieznane": 0
+    },
+    {
+        "polski": "wpływ",
+        "angielski": "influence",
+        "nieznane": 1
+    },
+    {
+        "polski": "znaczący",
+        "angielski": "significant",
+        "nieznane": 1
+    },
+    {
+        "polski": "zaniepokojony",
+        "angielski": "concerned",
+        "nieznane": 0
+    },
+    {
+        "polski": "istotny",
+        "angielski": "relevant",
+        "nieznane": 0
+    },
+    {
+        "polski": "korzyść",
+        "angielski": "benefit",
+        "nieznane": 0
+    },
+    {
+        "polski": "zagrożenie",
+        "angielski": "threat",
+        "nieznane": 0
+    },
+    {
+        "polski": "doświadczenie",
+        "angielski": "experience",
+        "nieznane": 0
+    },
+    {
+        "polski": "zatrudniać",
+        "angielski": "employ",
+        "nieznane": 0
+    }
 ]

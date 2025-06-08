@@ -1,10 +1,10 @@
 import random
-import tkinter as tk
+import json
 from ui.interfejs_fiszki import FlashcardInterface
 
 # Tryb nauki - losowe fiszki do momentu wyjścia
-
-def run(flashcards, mode):
+def run(flashcards, mode, json_path):
+    print(f"run wywołane z mode={mode}, json_path={json_path}")  # Debug
     used_indices = set()
 
     def show_random_flashcard():
@@ -15,40 +15,56 @@ def run(flashcards, mode):
         index = random.choice([i for i in range(len(flashcards)) if i not in used_indices])
         used_indices.add(index)
 
-        def on_quit():
-            print("Wyjście z trybu nauki")
-
-        def go_next():
-            app.root.destroy()
-            show_random_flashcard()
-
-        dummy = lambda: None
-
-        app = FlashcardInterface(
-            json_path=None,  # Nie wczytujemy z pliku
-            index=0,
-            callbacks={
-                'quit': on_quit,
-                'next': go_next,
-                'prev': dummy,
-                'toggle': dummy,
-                'yes': go_next,   # ← TERAZ 'Y' też działa jak 'N'
-                'no': go_next,
-            },
-            mode=mode
-        )
-
-        # Ustaw okno jako "pełnoekranowe"
-        app.root.attributes('-topmost', True)
-        app.root.attributes('-fullscreen', True)  # ← ta linia została dodana
-        app.root.focus_force()
-        app.root.lift()
-
-        # Ręczne podstawienie fiszki i aktualizacja interfejsu
         app.set_card(flashcards[index])
-        app.run()
 
-    # Ukryj techniczne okno inicjalne Tkintera
-    dummy_root = tk.Tk()
-    dummy_root.withdraw()
+    def on_quit():
+        print("Wyjście z trybu nauki")
+        app.root.destroy()
+
+    def go_next():
+        show_random_flashcard()
+
+    def mark_unknown():
+        print("mark_unknown wywołane")  # Debug
+        current_card = app.card
+        current_card["nieznane"] += 1
+        save_flashcards()
+
+    def save_flashcards():
+        print("save_flashcards wywołane")  # Debug
+        # Wczytaj wszystkie fiszki z pliku JSON
+        with open(json_path, "r", encoding="utf-8") as f:
+            all_flashcards = json.load(f)
+
+        # Aktualizuj tylko bieżącą fiszkę
+        current_card = app.card
+        for original_card in all_flashcards:
+            if current_card.get("polski") == original_card.get("polski") and current_card.get("angielski") == original_card.get("angielski"):
+                print(f"Aktualizuję fiszkę: {current_card}")  # Debug
+                original_card["nieznane"] = current_card["nieznane"]
+
+        # Zapisz zaktualizowane fiszki do pliku JSON
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(all_flashcards, f, ensure_ascii=False, indent=4)
+            print(f"Zapisano zmiany do pliku: {json_path}")  # Debug
+
+    # Create a single instance of FlashcardInterface
+    app = FlashcardInterface(
+        json_path=None,  # Nie wczytujemy z pliku
+        index=0,
+        callbacks={
+            'quit': on_quit,
+            'next': go_next,
+            'prev': lambda: None,
+            'toggle': lambda: None,
+            'yes': go_next,
+            'no': mark_unknown,  # Klawisz 'N' wywołuje mark_unknown
+        },
+        mode=mode
+    )
+
+    print(f"Przypisano funkcję mark_unknown do klawisza 'N': {mark_unknown}")
+
+    # Show the first random flashcard
     show_random_flashcard()
+    app.run()

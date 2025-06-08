@@ -1,406 +1,1017 @@
 [
-  {
-    "polski": "wykluczać",
-    "angielski": "preclude"
-  },
-  {
-    "polski": "zakładać (hipotezę)",
-    "angielski": "postulate"
-  },
-  {
-    "polski": "ujawniać",
-    "angielski": "disclose"
-  },
-  {
-    "polski": "powściągliwy",
-    "angielski": "reserved"
-  },
-  {
-    "polski": "zniekształcać",
-    "angielski": "distort"
-  },
-  {
-    "polski": "domniemany",
-    "angielski": "alleged"
-  },
-  {
-    "polski": "zakłócać",
-    "angielski": "disrupt"
-  },
-  {
-    "polski": "zachęcać",
-    "angielski": "encourage"
-  },
-  {
-    "polski": "rozszerzony",
-    "angielski": "extensive"
-  },
-  {
-    "polski": "powszechny",
-    "angielski": "prevalent"
-  },
-  {
-    "polski": "rozbieżność",
-    "angielski": "discrepancy"
-  },
-  {
-    "polski": "odrzucać",
-    "angielski": "reject"
-  },
-  {
-    "polski": "pochodzenie",
-    "angielski": "origin"
-  },
-  {
-    "polski": "uwzględniać",
-    "angielski": "take into account"
-  },
-  {
-    "polski": "sprawować",
-    "angielski": "exercise (power)"
-  },
-  {
-    "polski": "napięcie",
-    "angielski": "tension"
-  },
-  {
-    "polski": "wykonywać",
-    "angielski": "perform"
-  },
-  {
-    "polski": "obowiązywać",
-    "angielski": "apply"
-  },
-  {
-    "polski": "uzasadniać",
-    "angielski": "justify"
-  },
-  {
-    "polski": "skuteczność",
-    "angielski": "efficacy"
-  },
-  {
-    "polski": "wzajemny",
-    "angielski": "mutual"
-  },
-  {
-    "polski": "pominięcie",
-    "angielski": "omission"
-  },
-  {
-    "polski": "podatny na",
-    "angielski": "susceptible to"
-  },
-  {
-    "polski": "pozwalać",
-    "angielski": "enable"
-  },
-  {
-    "polski": "wnioskować",
-    "angielski": "infer"
-  },
-  {
-    "polski": "niejednoznaczny",
-    "angielski": "ambiguous"
-  },
-  {
-    "polski": "wyczerpujący",
-    "angielski": "comprehensive"
-  },
-  {
-    "polski": "podtrzymywać",
-    "angielski": "sustain"
-  },
-  {
-    "polski": "niewzruszony",
-    "angielski": "unfazed"
-  },
-  {
-    "polski": "niedostatek",
-    "angielski": "scarcity"
-  },
-  {
-    "polski": "przewidywalny",
-    "angielski": "foreseeable"
-  },
-  {
-    "polski": "złożony",
-    "angielski": "complex"
-  },
-  {
-    "polski": "rzetelny",
-    "angielski": "credible"
-  },
-  {
-    "polski": "niezrozumiały",
-    "angielski": "incomprehensible"
-  },
-  {
-    "polski": "uległy",
-    "angielski": "submissive"
-  },
-  {
-    "polski": "świadomy",
-    "angielski": "conscious"
-  },
-  {
-    "polski": "odwracalny",
-    "angielski": "reversible"
-  },
-  {
-    "polski": "prawdopodobny",
-    "angielski": "plausible"
-  },
-  {
-    "polski": "oddziaływać",
-    "angielski": "affect"
-  },
-  {
-    "polski": "odpowiedni",
-    "angielski": "adequate"
-  },
-  {
-    "polski": "naruszenie",
-    "angielski": "violation"
-  },
-  {
-    "polski": "złośliwy",
-    "angielski": "malicious"
-  },
-  {
-    "polski": "zachować",
-    "angielski": "retain"
-  },
-  {
-    "polski": "wymierny",
-    "angielski": "measurable"
-  },
-  {
-    "polski": "zagrażający",
-    "angielski": "menacing"
-  },
-  {
-    "polski": "wyczerpanie",
-    "angielski": "depletion"
-  },
-  {
-    "polski": "niedopuszczalny",
-    "angielski": "unacceptable"
-  },
-  {
-    "polski": "upoważniać",
-    "angielski": "authorize"
-  },
-  {
-    "polski": "dotkliwy",
-    "angielski": "severe"
-  },
-  {
-    "polski": "przewaga",
-    "angielski": "advantage"
-  },
-  {
-    "polski": "rozróżniać",
-    "angielski": "distinguish"
-  },
-  {
-    "polski": "opłacalny",
-    "angielski": "viable"
-  },
-  {
-    "polski": "wynikający z",
-    "angielski": "resulting from"
-  },
-  {
-    "polski": "sfałszowany",
-    "angielski": "fabricated"
-  },
-  {
-    "polski": "uspokajać",
-    "angielski": "reassure"
-  },
-  {
-    "polski": "rozwijać",
-    "angielski": "elaborate"
-  },
-  {
-    "polski": "sprzeczny",
-    "angielski": "contradictory"
-  },
-  {
-    "polski": "pośredni",
-    "angielski": "indirect"
-  },
-  {
-    "polski": "stosowny",
-    "angielski": "pertinent"
-  },
-  {
-    "polski": "zachowanie",
-    "angielski": "conduct"
-  },
-  {
-    "polski": "zdeterminowany",
-    "angielski": "determined"
-  },
-  {
-    "polski": "niezależność",
-    "angielski": "autonomy"
-  },
-  {
-    "polski": "uchronić",
-    "angielski": "avert"
-  },
-  {
-    "polski": "obejmować",
-    "angielski": "encompass"
-  },
-  {
-    "polski": "niewłaściwy",
-    "angielski": "inappropriate"
-  },
-  {
-    "polski": "zastępować",
-    "angielski": "supersede"
-  },
-  {
-    "polski": "naśladować",
-    "angielski": "imitate"
-  },
-  {
-    "polski": "nieistotny",
-    "angielski": "irrelevant"
-  },
-  {
-    "polski": "nieprzezwyciężony",
-    "angielski": "insurmountable"
-  },
-  {
-    "polski": "nieuchronny",
-    "angielski": "inevitable"
-  },
-  {
-    "polski": "potępiać",
-    "angielski": "condemn"
-  },
-  {
-    "polski": "przewyższać",
-    "angielski": "exceed"
-  },
-  {
-    "polski": "okazywać",
-    "angielski": "exhibit"
-  },
-  {
-    "polski": "podważać",
-    "angielski": "undermine"
-  },
-  {
-    "polski": "poświęcenie",
-    "angielski": "sacrifice"
-  },
-  {
-    "polski": "złożoność",
-    "angielski": "complexity"
-  },
-  {
-    "polski": "zasługa",
-    "angielski": "merit"
-  },
-  {
-    "polski": "uznać",
-    "angielski": "acknowledge"
-  },
-  {
-    "polski": "oszacować",
-    "angielski": "evaluate"
-  },
-  {
-    "polski": "odkupić",
-    "angielski": "redeem"
-  },
-  {
-    "polski": "skrupulatny",
-    "angielski": "meticulous"
-  },
-  {
-    "polski": "przełomowy",
-    "angielski": "groundbreaking"
-  },
-  {
-    "polski": "umiarkowany",
-    "angielski": "moderate"
-  },
-  {
-    "polski": "sprawiać wrażenie",
-    "angielski": "come across as"
-  },
-  {
-    "polski": "usprawiedliwiać",
-    "angielski": "vindicate"
-  },
-  {
-    "polski": "niesprawiedliwość",
-    "angielski": "injustice"
-  },
-  {
-    "polski": "przekonywający",
-    "angielski": "compelling"
-  },
-  {
-    "polski": "pomniejszać",
-    "angielski": "downplay"
-  },
-  {
-    "polski": "zwalczać",
-    "angielski": "combat"
-  },
-  {
-    "polski": "obejście",
-    "angielski": "bypass"
-  },
-  {
-    "polski": "odróżniać się",
-    "angielski": "stand out"
-  },
-  {
-    "polski": "obarczać",
-    "angielski": "burden"
-  },
-  {
-    "polski": "usankcjonować",
-    "angielski": "sanction"
-  },
-  {
-    "polski": "oddziaływanie",
-    "angielski": "impact"
-  },
-  {
-    "polski": "znosić",
-    "angielski": "endure"
-  },
-  {
-    "polski": "wyraźny",
-    "angielski": "explicit"
-  },
-  {
-    "polski": "nienaruszalny",
-    "angielski": "inviolable"
-  },
-  {
-    "polski": "twierdzić",
-    "angielski": "assert"
-  },
-  {
-    "polski": "wycofać",
-    "angielski": "withdraw"
-  },
-  {
-    "polski": "obowiązkowy",
-    "angielski": "mandatory"
-  },
-  {
-    "polski": "rozwaga",
-    "angielski": "discretion"
-  }
+    {
+        "polski": "wykluczać",
+        "angielski": "preclude",
+        "nieznane": 0
+    },
+    {
+        "polski": "zakładać (hipotezę)",
+        "angielski": "postulate",
+        "nieznane": 0
+    },
+    {
+        "polski": "ujawniać",
+        "angielski": "disclose",
+        "nieznane": 0
+    },
+    {
+        "polski": "powściągliwy",
+        "angielski": "reserved",
+        "nieznane": 0
+    },
+    {
+        "polski": "zniekształcać",
+        "angielski": "distort",
+        "nieznane": 0
+    },
+    {
+        "polski": "domniemany",
+        "angielski": "alleged",
+        "nieznane": 0
+    },
+    {
+        "polski": "zakłócać",
+        "angielski": "disrupt",
+        "nieznane": 0
+    },
+    {
+        "polski": "zachęcać",
+        "angielski": "encourage",
+        "nieznane": 0
+    },
+    {
+        "polski": "rozszerzony",
+        "angielski": "extensive",
+        "nieznane": 0
+    },
+    {
+        "polski": "powszechny",
+        "angielski": "prevalent",
+        "nieznane": 0
+    },
+    {
+        "polski": "rozbieżność",
+        "angielski": "discrepancy",
+        "nieznane": 0
+    },
+    {
+        "polski": "odrzucać",
+        "angielski": "reject",
+        "nieznane": 0
+    },
+    {
+        "polski": "pochodzenie",
+        "angielski": "origin",
+        "nieznane": 0
+    },
+    {
+        "polski": "uwzględniać",
+        "angielski": "take into account",
+        "nieznane": 0
+    },
+    {
+        "polski": "sprawować",
+        "angielski": "exercise (power)",
+        "nieznane": 0
+    },
+    {
+        "polski": "napięcie",
+        "angielski": "tension",
+        "nieznane": 0
+    },
+    {
+        "polski": "wykonywać",
+        "angielski": "perform",
+        "nieznane": 0
+    },
+    {
+        "polski": "obowiązywać",
+        "angielski": "apply",
+        "nieznane": 0
+    },
+    {
+        "polski": "uzasadniać",
+        "angielski": "justify",
+        "nieznane": 0
+    },
+    {
+        "polski": "skuteczność",
+        "angielski": "efficacy",
+        "nieznane": 0
+    },
+    {
+        "polski": "wzajemny",
+        "angielski": "mutual",
+        "nieznane": 0
+    },
+    {
+        "polski": "pominięcie",
+        "angielski": "omission",
+        "nieznane": 0
+    },
+    {
+        "polski": "podatny na",
+        "angielski": "susceptible to",
+        "nieznane": 0
+    },
+    {
+        "polski": "pozwalać",
+        "angielski": "enable",
+        "nieznane": 0
+    },
+    {
+        "polski": "wnioskować",
+        "angielski": "infer",
+        "nieznane": 0
+    },
+    {
+        "polski": "niejednoznaczny",
+        "angielski": "ambiguous",
+        "nieznane": 0
+    },
+    {
+        "polski": "wyczerpujący",
+        "angielski": "comprehensive",
+        "nieznane": 0
+    },
+    {
+        "polski": "podtrzymywać",
+        "angielski": "sustain",
+        "nieznane": 0
+    },
+    {
+        "polski": "niewzruszony",
+        "angielski": "unfazed",
+        "nieznane": 0
+    },
+    {
+        "polski": "niedostatek",
+        "angielski": "scarcity",
+        "nieznane": 0
+    },
+    {
+        "polski": "przewidywalny",
+        "angielski": "foreseeable",
+        "nieznane": 0
+    },
+    {
+        "polski": "złożony",
+        "angielski": "complex",
+        "nieznane": 0
+    },
+    {
+        "polski": "rzetelny",
+        "angielski": "credible",
+        "nieznane": 0
+    },
+    {
+        "polski": "niezrozumiały",
+        "angielski": "incomprehensible",
+        "nieznane": 0
+    },
+    {
+        "polski": "uległy",
+        "angielski": "submissive",
+        "nieznane": 0
+    },
+    {
+        "polski": "świadomy",
+        "angielski": "conscious",
+        "nieznane": 0
+    },
+    {
+        "polski": "odwracalny",
+        "angielski": "reversible",
+        "nieznane": 0
+    },
+    {
+        "polski": "prawdopodobny",
+        "angielski": "plausible",
+        "nieznane": 0
+    },
+    {
+        "polski": "oddziaływać",
+        "angielski": "affect",
+        "nieznane": 0
+    },
+    {
+        "polski": "odpowiedni",
+        "angielski": "adequate",
+        "nieznane": 0
+    },
+    {
+        "polski": "naruszenie",
+        "angielski": "violation",
+        "nieznane": 0
+    },
+    {
+        "polski": "złośliwy",
+        "angielski": "malicious",
+        "nieznane": 0
+    },
+    {
+        "polski": "zachować",
+        "angielski": "retain",
+        "nieznane": 0
+    },
+    {
+        "polski": "wymierny",
+        "angielski": "measurable",
+        "nieznane": 0
+    },
+    {
+        "polski": "zagrażający",
+        "angielski": "menacing",
+        "nieznane": 0
+    },
+    {
+        "polski": "wyczerpanie",
+        "angielski": "depletion",
+        "nieznane": 0
+    },
+    {
+        "polski": "niedopuszczalny",
+        "angielski": "unacceptable",
+        "nieznane": 0
+    },
+    {
+        "polski": "upoważniać",
+        "angielski": "authorize",
+        "nieznane": 0
+    },
+    {
+        "polski": "dotkliwy",
+        "angielski": "severe",
+        "nieznane": 0
+    },
+    {
+        "polski": "przewaga",
+        "angielski": "advantage",
+        "nieznane": 0
+    },
+    {
+        "polski": "rozróżniać",
+        "angielski": "distinguish",
+        "nieznane": 0
+    },
+    {
+        "polski": "opłacalny",
+        "angielski": "viable",
+        "nieznane": 0
+    },
+    {
+        "polski": "wynikający z",
+        "angielski": "resulting from",
+        "nieznane": 0
+    },
+    {
+        "polski": "sfałszowany",
+        "angielski": "fabricated",
+        "nieznane": 0
+    },
+    {
+        "polski": "uspokajać",
+        "angielski": "reassure",
+        "nieznane": 0
+    },
+    {
+        "polski": "rozwijać",
+        "angielski": "elaborate",
+        "nieznane": 0
+    },
+    {
+        "polski": "sprzeczny",
+        "angielski": "contradictory",
+        "nieznane": 0
+    },
+    {
+        "polski": "pośredni",
+        "angielski": "indirect",
+        "nieznane": 0
+    },
+    {
+        "polski": "stosowny",
+        "angielski": "pertinent",
+        "nieznane": 0
+    },
+    {
+        "polski": "zachowanie",
+        "angielski": "conduct",
+        "nieznane": 0
+    },
+    {
+        "polski": "zdeterminowany",
+        "angielski": "determined",
+        "nieznane": 0
+    },
+    {
+        "polski": "niezależność",
+        "angielski": "autonomy",
+        "nieznane": 0
+    },
+    {
+        "polski": "uchronić",
+        "angielski": "avert",
+        "nieznane": 0
+    },
+    {
+        "polski": "obejmować",
+        "angielski": "encompass",
+        "nieznane": 0
+    },
+    {
+        "polski": "niewłaściwy",
+        "angielski": "inappropriate",
+        "nieznane": 0
+    },
+    {
+        "polski": "zastępować",
+        "angielski": "supersede",
+        "nieznane": 0
+    },
+    {
+        "polski": "naśladować",
+        "angielski": "imitate",
+        "nieznane": 0
+    },
+    {
+        "polski": "nieistotny",
+        "angielski": "irrelevant",
+        "nieznane": 0
+    },
+    {
+        "polski": "nieprzezwyciężony",
+        "angielski": "insurmountable",
+        "nieznane": 0
+    },
+    {
+        "polski": "nieuchronny",
+        "angielski": "inevitable",
+        "nieznane": 0
+    },
+    {
+        "polski": "potępiać",
+        "angielski": "condemn",
+        "nieznane": 0
+    },
+    {
+        "polski": "przewyższać",
+        "angielski": "exceed",
+        "nieznane": 0
+    },
+    {
+        "polski": "okazywać",
+        "angielski": "exhibit",
+        "nieznane": 0
+    },
+    {
+        "polski": "podważać",
+        "angielski": "undermine",
+        "nieznane": 0
+    },
+    {
+        "polski": "poświęcenie",
+        "angielski": "sacrifice",
+        "nieznane": 0
+    },
+    {
+        "polski": "złożoność",
+        "angielski": "complexity",
+        "nieznane": 0
+    },
+    {
+        "polski": "zasługa",
+        "angielski": "merit",
+        "nieznane": 0
+    },
+    {
+        "polski": "uznać",
+        "angielski": "acknowledge",
+        "nieznane": 0
+    },
+    {
+        "polski": "oszacować",
+        "angielski": "evaluate",
+        "nieznane": 0
+    },
+    {
+        "polski": "odkupić",
+        "angielski": "redeem",
+        "nieznane": 0
+    },
+    {
+        "polski": "skrupulatny",
+        "angielski": "meticulous",
+        "nieznane": 0
+    },
+    {
+        "polski": "przełomowy",
+        "angielski": "groundbreaking",
+        "nieznane": 0
+    },
+    {
+        "polski": "umiarkowany",
+        "angielski": "moderate",
+        "nieznane": 0
+    },
+    {
+        "polski": "sprawiać wrażenie",
+        "angielski": "come across as",
+        "nieznane": 0
+    },
+    {
+        "polski": "usprawiedliwiać",
+        "angielski": "vindicate",
+        "nieznane": 0
+    },
+    {
+        "polski": "niesprawiedliwość",
+        "angielski": "injustice",
+        "nieznane": 0
+    },
+    {
+        "polski": "przekonywający",
+        "angielski": "compelling",
+        "nieznane": 0
+    },
+    {
+        "polski": "pomniejszać",
+        "angielski": "downplay",
+        "nieznane": 0
+    },
+    {
+        "polski": "zwalczać",
+        "angielski": "combat",
+        "nieznane": 0
+    },
+    {
+        "polski": "obejście",
+        "angielski": "bypass",
+        "nieznane": 0
+    },
+    {
+        "polski": "odróżniać się",
+        "angielski": "stand out",
+        "nieznane": 0
+    },
+    {
+        "polski": "obarczać",
+        "angielski": "burden",
+        "nieznane": 0
+    },
+    {
+        "polski": "usankcjonować",
+        "angielski": "sanction",
+        "nieznane": 0
+    },
+    {
+        "polski": "oddziaływanie",
+        "angielski": "impact",
+        "nieznane": 0
+    },
+    {
+        "polski": "znosić",
+        "angielski": "endure",
+        "nieznane": 0
+    },
+    {
+        "polski": "wyraźny",
+        "angielski": "explicit",
+        "nieznane": 0
+    },
+    {
+        "polski": "nienaruszalny",
+        "angielski": "inviolable",
+        "nieznane": 0
+    },
+    {
+        "polski": "twierdzić",
+        "angielski": "assert",
+        "nieznane": 0
+    },
+    {
+        "polski": "wycofać",
+        "angielski": "withdraw",
+        "nieznane": 0
+    },
+    {
+        "polski": "obowiązkowy",
+        "angielski": "mandatory",
+        "nieznane": 0
+    },
+    {
+        "polski": "rozwaga",
+        "angielski": "discretion",
+        "nieznane": 0
+    },
+    {
+        "polski": "zbieżność",
+        "angielski": "convergence",
+        "nieznane": 0
+    },
+    {
+        "polski": "nadrzędny",
+        "angielski": "overarching",
+        "nieznane": 0
+    },
+    {
+        "polski": "odstępstwo",
+        "angielski": "deviation",
+        "nieznane": 0
+    },
+    {
+        "polski": "kompromitujący",
+        "angielski": "incriminating",
+        "nieznane": 0
+    },
+    {
+        "polski": "bezzasadny",
+        "angielski": "unsubstantiated",
+        "nieznane": 0
+    },
+    {
+        "polski": "przypuszczać",
+        "angielski": "conjecture",
+        "nieznane": 0
+    },
+    {
+        "polski": "przekroczenie",
+        "angielski": "transgression",
+        "nieznane": 0
+    },
+    {
+        "polski": "niemożliwy do rozwiązania",
+        "angielski": "insoluble",
+        "nieznane": 0
+    },
+    {
+        "polski": "niematerialny",
+        "angielski": "intangible",
+        "nieznane": 0
+    },
+    {
+        "polski": "nieodłączny",
+        "angielski": "inherent",
+        "nieznane": 0
+    },
+    {
+        "polski": "wytrzymałość",
+        "angielski": "resilience",
+        "nieznane": 0
+    },
+    {
+        "polski": "poddawać się",
+        "angielski": "succumb",
+        "nieznane": 0
+    },
+    {
+        "polski": "rozliczalność",
+        "angielski": "accountability",
+        "nieznane": 0
+    },
+    {
+        "polski": "niedopuszczalność",
+        "angielski": "inadmissibility",
+        "nieznane": 0
+    },
+    {
+        "polski": "dobitny",
+        "angielski": "emphatic",
+        "nieznane": 0
+    },
+    {
+        "polski": "nienaruszalność",
+        "angielski": "sanctity",
+        "nieznane": 0
+    },
+    {
+        "polski": "wyniosłość",
+        "angielski": "aloofness",
+        "nieznane": 0
+    },
+    {
+        "polski": "powściągliwość",
+        "angielski": "reticence",
+        "nieznane": 0
+    },
+    {
+        "polski": "niepokojący",
+        "angielski": "disconcerting",
+        "nieznane": 0
+    },
+    {
+        "polski": "zawiłość",
+        "angielski": "intricacy",
+        "nieznane": 0
+    },
+    {
+        "polski": "przytłaczający",
+        "angielski": "overwhelming",
+        "nieznane": 0
+    },
+    {
+        "polski": "ułomność",
+        "angielski": "fallibility",
+        "nieznane": 0
+    },
+    {
+        "polski": "niezmienność",
+        "angielski": "immutability",
+        "nieznane": 0
+    },
+    {
+        "polski": "osłabienie",
+        "angielski": "attenuation",
+        "nieznane": 0
+    },
+    {
+        "polski": "obarczenie",
+        "angielski": "encumbrance",
+        "nieznane": 0
+    },
+    {
+        "polski": "przeciwdziałać",
+        "angielski": "counteract",
+        "nieznane": 0
+    },
+    {
+        "polski": "złośliwość",
+        "angielski": "malevolence",
+        "nieznane": 0
+    },
+    {
+        "polski": "uczłowieczenie",
+        "angielski": "personification",
+        "nieznane": 0
+    },
+    {
+        "polski": "zatarcie",
+        "angielski": "obliteration",
+        "nieznane": 0
+    },
+    {
+        "polski": "przesłanka",
+        "angielski": "premise",
+        "nieznane": 0
+    },
+    {
+        "polski": "przenośny",
+        "angielski": "metaphorical",
+        "nieznane": 0
+    },
+    {
+        "polski": "niepodważalny",
+        "angielski": "irrefutable",
+        "nieznane": 0
+    },
+    {
+        "polski": "brzemienny w skutki",
+        "angielski": "momentous",
+        "nieznane": 0
+    },
+    {
+        "polski": "obarczyć winą",
+        "angielski": "impute",
+        "nieznane": 0
+    },
+    {
+        "polski": "poręczyć",
+        "angielski": "vouch for",
+        "nieznane": 0
+    },
+    {
+        "polski": "wywyższać",
+        "angielski": "exalt",
+        "nieznane": 0
+    },
+    {
+        "polski": "nieustępliwy",
+        "angielski": "unyielding",
+        "nieznane": 0
+    },
+    {
+        "polski": "ujmować",
+        "angielski": "encapsulate",
+        "nieznane": 0
+    },
+    {
+        "polski": "niepohamowany",
+        "angielski": "unbridled",
+        "nieznane": 0
+    },
+    {
+        "polski": "bezgraniczny",
+        "angielski": "boundless",
+        "nieznane": 0
+    },
+    {
+        "polski": "zakorzeniony",
+        "angielski": "ingrained",
+        "nieznane": 0
+    },
+    {
+        "polski": "przypisywać",
+        "angielski": "ascribe",
+        "nieznane": 0
+    },
+    {
+        "polski": "wyczerpujący",
+        "angielski": "exhaustive",
+        "nieznane": 0
+    },
+    {
+        "polski": "pochłaniający",
+        "angielski": "engrossing",
+        "nieznane": 0
+    },
+    {
+        "polski": "nieprzejednany",
+        "angielski": "intransigent",
+        "nieznane": 0
+    },
+    {
+        "polski": "odmienność",
+        "angielski": "divergence",
+        "nieznane": 0
+    },
+    {
+        "polski": "niezłomny",
+        "angielski": "indomitable",
+        "nieznane": 0
+    },
+    {
+        "polski": "przezorność",
+        "angielski": "prudence",
+        "nieznane": 0
+    },
+    {
+        "polski": "bezwzględny",
+        "angielski": "ruthless",
+        "nieznane": 0
+    },
+    {
+        "polski": "nieprzewidywalność",
+        "angielski": "volatility",
+        "nieznane": 0
+    },
+    {
+        "polski": "dalekosiężny",
+        "angielski": "far-reaching",
+        "nieznane": 0
+    },
+    {
+        "polski": "przekształcać",
+        "angielski": "transfigure",
+        "nieznane": 0
+    },
+    {
+        "polski": "odkrywczość",
+        "angielski": "ingenuity",
+        "nieznane": 0
+    },
+    {
+        "polski": "rozróżnialny",
+        "angielski": "discernible",
+        "nieznane": 0
+    },
+    {
+        "polski": "poruszać (problem)",
+        "angielski": "broach",
+        "nieznane": 0
+    },
+    {
+        "polski": "pojednanie",
+        "angielski": "reconciliation",
+        "nieznane": 0
+    },
+    {
+        "polski": "zniekształcenie",
+        "angielski": "warp",
+        "nieznane": 0
+    },
+    {
+        "polski": "nieuchronność",
+        "angielski": "inexorability",
+        "nieznane": 0
+    },
+    {
+        "polski": "powaga",
+        "angielski": "gravity",
+        "nieznane": 0
+    },
+    {
+        "polski": "przejrzystość",
+        "angielski": "lucidity",
+        "nieznane": 0
+    },
+    {
+        "polski": "wnikliwość",
+        "angielski": "astuteness",
+        "nieznane": 0
+    },
+    {
+        "polski": "skłonność",
+        "angielski": "predilection",
+        "nieznane": 0
+    },
+    {
+        "polski": "wyrzeczenie",
+        "angielski": "renunciation",
+        "nieznane": 0
+    },
+    {
+        "polski": "zawikłany",
+        "angielski": "convoluted",
+        "nieznane": 0
+    },
+    {
+        "polski": "przemyślany",
+        "angielski": "deliberate",
+        "nieznane": 0
+    },
+    {
+        "polski": "wymownie",
+        "angielski": "eloquently",
+        "nieznane": 0
+    },
+    {
+        "polski": "ochoczo",
+        "angielski": "readily",
+        "nieznane": 0
+    },
+    {
+        "polski": "nienaganny",
+        "angielski": "impeccable",
+        "nieznane": 0
+    },
+    {
+        "polski": "oszałamiający",
+        "angielski": "staggering",
+        "nieznane": 0
+    },
+    {
+        "polski": "usankcjonowany",
+        "angielski": "legitimized",
+        "nieznane": 0
+    },
+    {
+        "polski": "deprecjonować",
+        "angielski": "belittle",
+        "nieznane": 0
+    },
+    {
+        "polski": "bezstronność",
+        "angielski": "impartiality",
+        "nieznane": 0
+    },
+    {
+        "polski": "posługiwać się",
+        "angielski": "wield",
+        "nieznane": 0
+    },
+    {
+        "polski": "uwypuklać",
+        "angielski": "accentuate",
+        "nieznane": 0
+    },
+    {
+        "polski": "nieskazitelny",
+        "angielski": "unblemished",
+        "nieznane": 0
+    },
+    {
+        "polski": "pochopność",
+        "angielski": "rashness",
+        "nieznane": 0
+    },
+    {
+        "polski": "usprawiedliwiony",
+        "angielski": "vindicated",
+        "nieznane": 0
+    },
+    {
+        "polski": "wzajemność",
+        "angielski": "reciprocity",
+        "nieznane": 0
+    },
+    {
+        "polski": "niedopowiedzenie",
+        "angielski": "understatement",
+        "nieznane": 0
+    },
+    {
+        "polski": "oburzający",
+        "angielski": "outrageous",
+        "nieznane": 0
+    },
+    {
+        "polski": "pozostający bez odpowiedzi",
+        "angielski": "unanswered",
+        "nieznane": 0
+    },
+    {
+        "polski": "pogłębiający się",
+        "angielski": "deepening",
+        "nieznane": 0
+    },
+    {
+        "polski": "podważać",
+        "angielski": "discredit",
+        "nieznane": 0
+    },
+    {
+        "polski": "ułatwienie",
+        "angielski": "facilitation",
+        "nieznane": 0
+    },
+    {
+        "polski": "dokładność",
+        "angielski": "precision",
+        "nieznane": 0
+    },
+    {
+        "polski": "zgłębiać",
+        "angielski": "delve into",
+        "nieznane": 0
+    },
+    {
+        "polski": "obejść się bez",
+        "angielski": "dispense with",
+        "nieznane": 0
+    },
+    {
+        "polski": "nadrabiać",
+        "angielski": "make amends",
+        "nieznane": 0
+    },
+    {
+        "polski": "wieloznaczność",
+        "angielski": "equivocation",
+        "nieznane": 0
+    },
+    {
+        "polski": "wzbudzać",
+        "angielski": "evoke",
+        "nieznane": 0
+    },
+    {
+        "polski": "niedający się utrzymać",
+        "angielski": "untenable",
+        "nieznane": 0
+    },
+    {
+        "polski": "odpowiedzialny",
+        "angielski": "liable",
+        "nieznane": 0
+    },
+    {
+        "polski": "skwapliwość",
+        "angielski": "alacrity",
+        "nieznane": 0
+    },
+    {
+        "polski": "wszechobecny",
+        "angielski": "ubiquitous",
+        "nieznane": 0
+    },
+    {
+        "polski": "pełen skruchy",
+        "angielski": "contrite",
+        "nieznane": 0
+    },
+    {
+        "polski": "pomijanie",
+        "angielski": "neglect",
+        "nieznane": 0
+    },
+    {
+        "polski": "poświęcenie",
+        "angielski": "dedication",
+        "nieznane": 0
+    },
+    {
+        "polski": "sugestywny",
+        "angielski": "evocative",
+        "nieznane": 0
+    },
+    {
+        "polski": "dziwaczny",
+        "angielski": "quirky",
+        "nieznane": 0
+    },
+    {
+        "polski": "nacechowany",
+        "angielski": "laden",
+        "nieznane": 0
+    },
+    {
+        "polski": "ospałość",
+        "angielski": "lethargy",
+        "nieznane": 0
+    },
+    {
+        "polski": "skryty",
+        "angielski": "cloistered",
+        "nieznane": 0
+    }
 ]
