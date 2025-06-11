@@ -26,7 +26,7 @@ NPG Projekt to gra edukacyjna, która pomaga w nauce języka angielskiego za pom
 
 ---
 
-##  **Struktura Plików **
+##  **Struktura Plików**
 
 ### **Pliki w folderze `data`**
 - Przechowują dane fiszek w formacie JSON. Każda fiszka zawiera pola:
