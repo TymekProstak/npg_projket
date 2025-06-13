@@ -6,23 +6,36 @@ from ui.interfejs_fiszki import FlashcardInterface
 def run(flashcards, mode, json_path):
     print(f"run wywołane z mode={mode}, json_path={json_path}")  # Debug
     used_indices = set()
+    history = []  # Historia wyświetlanych fiszek
+    index = None  # Bieżący indeks fiszki
 
     def show_random_flashcard():
+        nonlocal index
         if len(used_indices) == len(flashcards):
             print("Wszystkie fiszki zostały pokazane.")
             return
 
         index = random.choice([i for i in range(len(flashcards)) if i not in used_indices])
         used_indices.add(index)
-
+        history.append(index)
+        print(f"Wyświetlam fiszkę: {flashcards[index]}")  # Debug
         app.set_card(flashcards[index])
+
+    def go_next():
+        show_random_flashcard()
+
+    def go_prev():
+        nonlocal index
+        if len(history) > 1:
+            history.pop()  # Usuń bieżący indeks z historii
+            index = history[-1]  # Cofnij się do poprzedniego indeksu
+            app.set_card(flashcards[index])
+        else:
+            print("Nie można cofnąć się dalej.")
 
     def on_quit():
         print("Wyjście z trybu nauki")
         app.root.destroy()
-
-    def go_next():
-        show_random_flashcard()
 
     def mark_unknown():
         print("mark_unknown wywołane")  # Debug
@@ -55,7 +68,7 @@ def run(flashcards, mode, json_path):
         callbacks={
             'quit': on_quit,
             'next': go_next,
-            'prev': lambda: None,
+            'prev': go_prev,
             'toggle': lambda: None,
             'yes': go_next,
             'no': mark_unknown,  # Klawisz 'N' wywołuje mark_unknown

@@ -147,9 +147,11 @@ class FlashcardInterface:
         if event.keysym == "q":
             self.is_destroyed = True
             self.root.destroy()
-        elif event.keysym in ("right", "n"):
+        elif event.keysym == "Right":  # Obsługa strzałki w prawo
+            print("Wywołuję funkcję next")  # Debug
             self.callbacks.get("next", lambda: None)()
-        elif event.keysym in ("left",):
+        elif event.keysym == "Left":  # Obsługa strzałki w lewo
+            print("Wywołuję funkcję prev")  # Debug
             self.callbacks.get("prev", lambda: None)()
         elif event.keysym == "space":
             self.toggle_translation()
@@ -159,9 +161,12 @@ class FlashcardInterface:
             self.callbacks.get("no", lambda: None)()
 
     def toggle_translation(self):
-        """Przełącz między wyświetlaniem a ukrywaniem angielskiego tłumaczenia."""
+        """Przełącz między wyświetlaniem a ukrywaniem tłumaczenia."""
         if not self.show_translation:
-            self.eng_label.config(text=self.card["angielski"])  # Pokaż rzeczywiste tłumaczenie
+            if self.current_direction == "pl-en":
+                self.eng_label.config(text=self.card["angielski"])  # Pokaż tłumaczenie na angielski
+            else:
+                self.eng_label.config(text=self.card["polski"])  # Pokaż tłumaczenie na polski
             self.show_translation = True
         else:
             self.eng_label.config(text="")  # Ukryj tłumaczenie
@@ -170,9 +175,18 @@ class FlashcardInterface:
     def set_card(self, card):
         """Zaktualizuj zawartość bieżącej fiszki."""
         self.card = card
-        self.pol_label.config(text=self.card["polski"])
-        self.eng_label.config(text="")
         self.show_translation = False
+
+        if self.mode == "pl-en":  # Polsko-angielski
+            self.pol_label.config(text=self.card["polski"])
+            self.eng_label.config(text="")
+            self.current_direction = "pl-en"
+        elif self.mode == "en-pl":  # Angielsko-polski
+            self.pol_label.config(text=self.card["angielski"])
+            self.eng_label.config(text="")
+            self.current_direction = "en-pl"
+
+
 
     def run(self):
         self.root.mainloop()

@@ -8,6 +8,7 @@ def run(flashcards, mode, json_path):
     random.shuffle(flashcards)
     index = 0
     correct_count = 0
+    history = []  # Historia wyświetlanych fiszek
 
     app = FlashcardInterface(
         json_path=None,
@@ -15,7 +16,7 @@ def run(flashcards, mode, json_path):
         callbacks={
             'quit': lambda: app.root.destroy(),
             'next': lambda: next_card(),
-            'prev': lambda: None,
+            'prev': lambda: prev_card(),
             'toggle': lambda: None,
             'yes': lambda: mark_correct(),
             'no': lambda: mark_unknown(),
@@ -26,10 +27,19 @@ def run(flashcards, mode, json_path):
     def next_card():
         nonlocal index
         if index < len(flashcards) - 1:
+            history.append(index)
             index += 1
             app.set_card(flashcards[index])
         else:
             show_result()
+
+    def prev_card():
+        nonlocal index
+        if history:
+            index = history.pop()
+            app.set_card(flashcards[index])
+        else:
+            print("Nie można cofnąć się dalej.")
 
     def mark_correct():
         nonlocal correct_count

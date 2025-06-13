@@ -2,7 +2,7 @@
     {
         "polski": "pole",
         "angielski": "field",
-        "nieznane": 0
+        "nieznane": 3
     },
     {
         "polski": "problem",
@@ -22,7 +22,7 @@
     {
         "polski": "dowód",
         "angielski": "evidence",
-        "nieznane": 0
+        "nieznane": 2
     },
     {
         "polski": "zachowanie",
@@ -42,7 +42,7 @@
     {
         "polski": "zapewnić",
         "angielski": "provide",
-        "nieznane": 0
+        "nieznane": 1
     },
     {
         "polski": "uczestnictwo",
@@ -62,17 +62,17 @@
     {
         "polski": "wpływ",
         "angielski": "influence",
-        "nieznane": 1
+        "nieznane": 3
     },
     {
         "polski": "znaczący",
         "angielski": "significant",
-        "nieznane": 1
+        "nieznane": 3
     },
     {
         "polski": "zaniepokojony",
         "angielski": "concerned",
-        "nieznane": 0
+        "nieznane": 4
     },
     {
         "polski": "istotny",
