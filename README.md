@@ -70,7 +70,8 @@ Projekt korzysta z następujących bibliotek:
 2. **Uruchom aplikację**:
    - W terminalu przejdź do folderu projektu:
      ```bash
-     cd /home/tymek/npg/npg_projket
+     /tutaj scieżka do folderu w którym jest pobrane repo
+     
      ```
    - Uruchom aplikację:
      ```bash
